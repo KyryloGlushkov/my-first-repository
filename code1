@@ -10,7 +10,7 @@ int main() {
 
     cout << "Enter c =";
     cin >> a;
-    cout << "Enter x =";
+    cout << "Enter z =";
     cin >> b;
     cout << "Enter h =";
     cin >> h;
