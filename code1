@@ -5,12 +5,12 @@
 using namespace std;
 
 int main() {
-    int a, b;
+    int a, z;
     float h, c, d;
 
     cout << "Enter a =";
     cin >> a;
-    cout << "Enter b =";
+    cout << "Enter z =";
     cin >> b;
     cout << "Enter h =";
     cin >> h;
@@ -18,8 +18,8 @@ int main() {
 
     float y, x = a;
 
-    while (x <= b) {
-        y = sqrt(x) + cos(x) - 3;
+    while (x <= z) {
+        y = sqrt(x) + cos(x) - 4;
         cout << setw(10) << "x=" << x << setw(10) << "y=" << y << endl;
         x += h;
     }
