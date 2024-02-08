@@ -8,9 +8,9 @@ int main() {
     int a, b;
     float h, c, d;
 
-    cout << "Enter a =";
+    cout << "Enter c =";
     cin >> a;
-    cout << "Enter b =";
+    cout << "Enter x =";
     cin >> b;
     cout << "Enter h =";
     cin >> h;
