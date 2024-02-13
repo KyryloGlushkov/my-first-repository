@@ -6,12 +6,12 @@ using namespace std;
 
 int main() {
     int a, z;
-    float h, c, d;
+    float h, c, z d;
 
     cout << "Enter c =";
     cin >> a;
     cout << "Enter z =";
-    cin >> b;
+    cin >> z;
     cout << "Enter h =";
     cin >> h;
   
