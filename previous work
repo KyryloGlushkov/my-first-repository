@@ -1,0 +1,28 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int a, z;
+    float h, c, d;
+
+    cout << "Enter c =";
+    cin >> a;
+    cout << "Enter g =";
+    cin >> b;
+    cout << "Enter h =";
+    cin >> h;
+  
+
+    float y, x = a;
+
+    while (x <= z) {
+        y = sqrt(x) + cos(x) - 4;
+        cout << setw(10) << "x=" << x << setw(10) << "y=" << y << endl;
+        x += h;
+    }
+
+    return 0;
+}
